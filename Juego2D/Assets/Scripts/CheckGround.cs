@@ -12,6 +12,7 @@ public class CheckGround : MonoBehaviour
          isGrounded = true;
     }
 
+    //no esta tocando el suelo
     private void OnTriggerExit2D(Collider2D collision)
     {
         isGrounded = false;
