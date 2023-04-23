@@ -33,7 +33,7 @@ public class Movement : MonoBehaviour
             spriteRenderer.flipX = false; //no permite hacer el flip
             animator.SetBool("Run", true);
 
-        }
+        }// movimiento hacia la izquierda
         else if (Input.GetKey("a"))
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
